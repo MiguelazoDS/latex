@@ -1,0 +1,82 @@
+\section{secci\'on}
+\subsection{subsecci\'on}
+  \begin{enumerate}
+    \item Algo
+    \item Algo
+  \end{enumerate}
+
+\subsection{secci\'on}
+  \begin{lstlisting}[language=Python]
+    import socket
+
+    UDP_IP = "127.0.0.1"
+    UDP_PORT = 5005
+    MESSAGE = "Hello, World!"
+
+    print "UDP target IP:", UDP_IP
+    print "UDP target port:", UDP_PORT
+    print "message:", MESSAGE
+
+    sock = socket.socket(socket.AF_INET, # Internet
+                          socket.SOCK_DGRAM) # UDP
+    sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
+  \end{lstlisting}
+
+\subsection{subsecci\'on}
+  %Eliminar la sangría al comienzo de un párrafo
+  \noindent
+  Esta es una cita \cite{einstein}\\
+  Esta es otra cita \cite{dirac}\\
+  Esta es otra cita \cite{knuthwebsite}\\
+
+\subsection{subsecci\'on}
+  \noindent
+  \url{www.google.com.ar}
+
+\subsection{subsecci\'on}
+\begin{center}
+    \begin{tabular}{ | l | l | l | p{5cm} |}
+    \hline
+    Day & Min Temp & Max Temp & Summary \\ \hline
+    Monday & 11C & 22C & A clear day with lots of sunshine.
+    However, the strong breeze will bring down the temperatures. \\ \hline
+    Tuesday & 9C & 19C & Cloudy with rain, across many northern regions. Clear spells
+    across most of Scotland and Northern Ireland,
+    but rain reaching the far northwest. \\ \hline
+    Wednesday & 10C & 21C & Rain will still linger for the morning.
+    Conditions will improve by early afternoon and continue
+    throughout the evening. \\
+    \hline
+    \end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{asd}     & \textbf{asd} & \textbf{asd}\\\hline\hline
+      &			     			  & 123 \\ \cline{3-3}
+  dsa& \multirow{-2}{*}{as} & 123\\ \hline
+      &			                  & 123 \\ \cline{3-3}
+  dsa& \multirow{-2}{*}{as} & 123\\ \hline
+              &			& 123\\ \cline{3-3}
+                & \multirow{-2}{*}{as} & 123\\ \cline{2-2}\cline{3-3}
+               & 			&123\\ \cline{3-3}
+  \multirow{-4}{*}{dsa} & \multirow{-2}{*}{as} & 123\\\hline
+\end{tabular}
+\end{center}
+
+\subsection{subsecci\'on}
+\href{https://www.overleaf.com}{Overleaf}\\\\\\
+\href{http://www.google.com.ar}{\includegraphics[width=5cm]{google.png}}\\\\\\
+\href{run:Documents/prueba.pdf}{Archivo}
+
+\subsection{subsecci\'on}
+
+\begin{figure}[H]
+\centering
+\includegraphics{prueba.pdf}
+\end{figure}
+
+\begin{mybox}{titulo}
+  Algo
+\end{mybox}

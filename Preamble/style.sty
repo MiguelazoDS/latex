@@ -1,0 +1,90 @@
+%Paquete para poder incluir código
+\usepackage{listings}
+
+%Permite poner nombres con espacios en \includegraphics
+\usepackage[space]{grffile}
+
+%Permite tachar
+\usepackage{ulem}
+
+%Permite usar colores
+\usepackage{color}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{listingsutf8}
+
+%Permite usar el comando \FloatBarrier para que las imagenes queden debajo de la sección correspondiente
+%\usepackage{placeins}
+%Alternativa a \usepackage{placeins} que permite usar H en lugar de h!.
+\usepackage{float}
+
+%Permite usar múltiples filas en las columnas que se elija
+\usepackage{multirow}
+
+%Corta los enlaces demasiado largos.
+\usepackage{xurl}
+
+%Sin sangría
+\setlength\parindent{0pt}
+
+%Habilita hyperlink en citas y enlaces en las referencias. sorting=none
+%Hace que las referencias se ordenen de acuerdo a su aparición
+\usepackage[hyperref=true,style=numeric,backend=biber,sorting=none]{biblatex}
+
+%Colores customizados
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.39,0.39,0.39}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.93,0.95,0.95}
+\definecolor{codeblue}{rgb}{0.16,0.39,0.59}
+
+%Define el estilo de la presentación de código
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codeblue},
+    keywordstyle=\color{codepurple},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codegreen},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    %numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    %Permite que el código sea copiable omitiendo los espacios.
+    columns=fullflexible
+}
+\lstset{style=mystyle}
+
+%Necesarios para escribir en español
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+
+%Colección de sí­mbolos
+\usepackage{amssymb}
+
+%amssymb ya lo carga
+%\usepackage{amsfonts}
+
+%Permite la escritura de ecuaciones matemáticas
+\usepackage{amsmath}
+
+%Permite incluir imágenes en los documentos
+\usepackage{graphicx}
+
+%Modifica los colores de los diferentes enlaces (í­ndice, citas, urls)
+\usepackage[colorlinks=true, linkcolor=black]{hyperref}
+\hypersetup{colorlinks, citecolor=[rgb]{0,0.6,0}, urlcolor=[rgb]{0.07,0.24,0.35}}
+
+%Permite el uso de números de páginas, encabezados y pies de página
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{GOI - 2017}
+\rhead{Algo {\includegraphics[width=15mm]{fcefyn.jpg}}}
+\rfoot{P\'agina \thepage}
