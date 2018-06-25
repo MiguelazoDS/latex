@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}secci\'on}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}subsecci\'on}{1}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}secci\'on}{1}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}subsecci\'on}{1}{subsection.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4}subsecci\'on}{1}{subsection.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5}subsecci\'on}{2}{subsection.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.6}subsecci\'on}{2}{subsection.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.7}subsecci\'on}{3}{subsection.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.8}State Machine}{3}{subsection.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}secci\'on}{5}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}subsecci\'on}{5}{subsection.2.1}
