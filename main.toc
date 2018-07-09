@@ -22,3 +22,5 @@
 \contentsline {section}{\numberline {2}secci\'on}{5}{section.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}subsecci\'on}{5}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Referencias}{6}{section*.2}

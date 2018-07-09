@@ -65,6 +65,19 @@
 \end{tabular}
 \end{center}
 
+%Para poner tablas a lo largo incluir \begin{sidewaystable} y \end{sidewaystable} encerrando ``tabular''
+%\mc es la definición del comando el número entre corchetes especifica la cantidad de argumentos y el #1 indica el lugar del primer argumento.
+\newcommand{\mc}[1]{\multicolumn{1}{c}{#1}}
+
+\begin{tabular}{c|c|c|c|c|c|}
+	\mc{} & \mc{A} & \mc{B} & \mc{C} &  \mc{D} & \mc{E} \tabularnewline \hhline{~|*{5}{-}}
+	a           						 &  \cellcolor{blue!25}        &                                        &                                          &                                          &  \cellcolor{red!25}   \tabularnewline \hhline{~|*5-}
+	b          							 &                                          &                                       &                                           &                                          &  \tabularnewline \hhline{~|*5-}
+	c           						 &                                          &                                        &                                          &                                         &  \tabularnewline \hhline{~|*5-}
+	d           						 &                                          &                                        &                                         &                                          &  \tabularnewline \hhline{~|*5-}
+	e           						 &                                          & \cellcolor{green!25}     &                                         &                                           &  \tabularnewline \hhline{~|*5-}
+\end{tabular}
+
 \subsection{subsecci\'on}
 \href{https://www.overleaf.com}{Overleaf}\\\\\\
 \href{http://www.google.com.ar}{\includegraphics[width=5cm]{google.png}}\\\\\\
