@@ -13,14 +13,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5}subsecci\'on}{2}{subsection.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6}subsecci\'on}{2}{subsection.1.6}
+\contentsline {section}{\numberline {2}Ejercicio N\textdegree 1:}{4}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.7}subsecci\'on}{4}{subsection.1.7}
+\contentsline {subsubsection}{\numberline {2.0.1}1}{4}{subsubsection.2.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.8}State Machine}{4}{subsection.1.8}
+\contentsline {subsubsection}{\numberline {2.0.2}2}{4}{subsubsection.2.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}secci\'on}{6}{section.2}
+\contentsline {subsubsection}{\numberline {2.0.3}3}{4}{subsubsection.2.0.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}subsecci\'on}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}subsecci\'on}{5}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Referencias}{7}{section*.2}
+\contentsline {subsection}{\numberline {2.2}subsecci\'on}{5}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}State Machine}{6}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}secci\'on}{7}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}subsecci\'on}{7}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Referencias}{8}{section*.2}
