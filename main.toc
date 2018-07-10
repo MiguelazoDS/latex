@@ -15,12 +15,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.6}subsecci\'on}{2}{subsection.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.7}subsecci\'on}{3}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.7}subsecci\'on}{4}{subsection.1.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.8}State Machine}{3}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.8}State Machine}{4}{subsection.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}secci\'on}{5}{section.2}
+\contentsline {section}{\numberline {2}secci\'on}{6}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}subsecci\'on}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}subsecci\'on}{6}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Referencias}{6}{section*.2}
+\contentsline {section}{Referencias}{7}{section*.2}
