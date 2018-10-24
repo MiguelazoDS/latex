@@ -81,6 +81,25 @@ pie de p\'agina\footnote{info}
 		\hline
 	\end{tabular}
 \end{center}
+
+%Ejemplo donde se ajusta el tamaño de la tabla con resizebox
+\begin{center}
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{ |l|l|l|l|l|}
+		\hline
+		\multicolumn{5}{ |c| }{\textbf{Tabla 1 - L\'ineas de Balmer del H}} \\
+		\hline\hline
+		Nro & $\lambda_1 = x_1 \pm \Delta x_1$ & $\lambda_2 = x_2 \pm \Delta x_2$ &$\lambda_3 = x_3 \pm \Delta x_3$ & $\lambda_3 = x_3 \pm \Delta x_3$\\ \hline
+		1 &  & & &\\ \hline
+		2 &  & & &\\ \hline
+		3 &  & & &\\ \hline
+		4 &  & & &\\ \hline
+		5 &  & & &\\ \hline
+		Resultado & $<x_1>\pm E_{x_1}$ &  $<x_2>\pm E_{x_2}$  & $<x_3>\pm E_{x_3}$ & $<x_4>\pm E_{x_4}$\\
+		\hline
+	\end{tabular}}
+\end{center}
+
 %\mc es la definición del comando el número entre corchetes especifica la cantidad de argumentos y el #1 indica el lugar del primer argumento.
 \newcommand{\mc}[1]{\multicolumn{1}{c}{#1}}
 
