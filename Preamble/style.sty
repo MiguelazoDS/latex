@@ -49,27 +49,25 @@
 %Habilita hyperlink en citas y enlaces en las referencias. sorting=none
 %Hace que las referencias se ordenen de acuerdo a su aparición
 \usepackage[hyperref=true,style=numeric,backend=biber,sorting=none]{biblatex}
-
 %Colores customizados
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.39,0.39,0.39}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.93,0.95,0.95}
-\definecolor{codeblue}{rgb}{0.16,0.39,0.59}
+\definecolor{keyword}{RGB}{206,54,12}
+\definecolor{string}{RGB}{65,140,64}
+\definecolor{background}{rgb}{255,253,247}
+\definecolor{comment}{RGB}{63,110,135}
 
 %Define el estilo de la presentación de código
 \lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},
-    commentstyle=\color{codeblue},
-    keywordstyle=\color{codepurple},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codegreen},
+    backgroundcolor=\color{background},
+    commentstyle=\color{comment},
+    keywordstyle=\color{keyword},
+    numberstyle=\tiny,
+    stringstyle=\color{string},
     basicstyle=\footnotesize,
     breakatwhitespace=false,
     breaklines=true,
     captionpos=b,
     keepspaces=true,
-    %numbers=left,
+    numbers=left,
     numbersep=5pt,
     showspaces=false,
     showstringspaces=false,
@@ -92,6 +90,7 @@
 
 %Permite la escritura de ecuaciones matemáticas
 \usepackage{amsmath}
+
 
 %Permite incluir imágenes en los documentos
 \usepackage{graphicx}

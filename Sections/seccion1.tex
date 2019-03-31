@@ -1,36 +1,4 @@
-\section{secci\'on}
-\subsection{subsecci\'on}
-  \begin{enumerate}
-    \item Algo
-    \item Algo
-  \end{enumerate}
-\subsection{secci\'on}
-  \begin{lstlisting}[language=Python]
-    import socket
-
-    UDP_IP = "127.0.0.1"
-    UDP_PORT = 5005
-    MESSAGE = "Hello, World!"
-
-    print "UDP target IP:", UDP_IP
-    print "UDP target port:", UDP_PORT
-    print "message:", MESSAGE
-
-    sock = socket.socket(socket.AF_INET, # Internet
-                          socket.SOCK_DGRAM) # UDP
-    sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
-  \end{lstlisting}
-\subsection{subsecci\'on}
-  %Eliminar la sangría al comienzo de un párrafo
-  \noindent
-  Esta es una cita \cite{einstein}\\
-  Esta es otra cita \cite{dirac}\\
-  Esta es otra cita \cite{knuthwebsite}\\
-\subsection{subsecci\'on}
-  \noindent
-  \url{www.google.com.ar}
-\subsection{subsecci\'on}
-pie de p\'agina\footnote{info}
+\section{Tablas}
 \begin{center}
     \begin{tabular}{ | l | l | l | p{5cm} |}
     \hline
@@ -46,7 +14,6 @@ pie de p\'agina\footnote{info}
     \hline
     \end{tabular}
 \end{center}
-
 \begin{center}
 \begin{tabular}{|c|c|c|}
   \hline
@@ -61,7 +28,6 @@ pie de p\'agina\footnote{info}
   \multirow{-4}{*}{dsa} & \multirow{-2}{*}{as} & 123\\\hline
 \end{tabular}
 \end{center}
-
 \begin{center}
 	\begin{tabular}{ |l|l|l| }
 		\hline
@@ -81,7 +47,6 @@ pie de p\'agina\footnote{info}
 		\hline
 	\end{tabular}
 \end{center}
-
 %Ejemplo donde se ajusta el tamaño de la tabla con resizebox
 \begin{center}
 	\resizebox{\textwidth}{!}{%
@@ -99,10 +64,8 @@ pie de p\'agina\footnote{info}
 		\hline
 	\end{tabular}}
 \end{center}
-
 %\mc es la definición del comando el número entre corchetes especifica la cantidad de argumentos y el #1 indica el lugar del primer argumento.
 \newcommand{\mc}[1]{\multicolumn{1}{c}{#1}}
-
 %Poner dos tablas rotadas una debajo de la otra
 \begin{table}[!htb]
 \rotatebox{90}{
@@ -130,7 +93,6 @@ pie de p\'agina\footnote{info}
 	\end{tabular}
 \end{minipage}}
 \end{table}
-
 %Varias tablas a 90º vspace necesario para que las tablas no se superpongan con el título. "\\\\" después de end{tabular} para separar las tablas. newcolumntype permite dejar todas las celdas del mismo tamaño. 
 \section{Ejercicio N\textdegree 1:}
 \vspace{4.8cm}
@@ -193,18 +155,15 @@ pie de p\'agina\footnote{info}
 	\end{minipage} 
 \end{table}
 
-\subsection{subsecci\'on}
+\section{Hiperlinks}
 \href{https://www.overleaf.com}{Overleaf}\\\\\\
 \href{http://www.google.com.ar}{\includegraphics[width=5cm]{google.png}}\\\\\\
 \href{run:Documents/prueba.pdf}{Archivo}
-
-\subsection{subsecci\'on}
-
+\section{Figuras}
 \begin{figure}[H]
 \centering
 \includegraphics{prueba.pdf}
 \end{figure}
-
 \begin{mybox}{titulo}
   Algo
 \end{mybox}
@@ -227,7 +186,6 @@ right=2cm of s,
 text=blue!30!white, 
 draw=none, 
 fill=gray!50!black] (r) {Rainy};
-
 % Connect the states with arrows
 \draw[every loop,
 auto=right,
