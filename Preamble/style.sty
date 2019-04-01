@@ -1,4 +1,6 @@
-%Paquete para poder incluir c贸digo
+
+
+%Paquete para poder incluir c骴igo
 \usepackage{listings}
 
 %Permite poner nombres con espacios en \includegraphics
@@ -9,13 +11,13 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows,automata,positioning}
 
-%Permite letras más pequeñas en descripción.
+%Permite letras m醩 peque馻s en descripci髇.
 \usepackage[font=scriptsize]{caption}
 
 %Permite tachar con \sout{text}
 \usepackage{ulem}
 
-%Permite tachar en modo matemático con \cancel{expression}
+%Permite tachar en modo matem醫ico con \cancel{expression}
 \usepackage{cancel}
 
 %Permite usar divisi髇 oblicua
@@ -37,17 +39,17 @@
 %Alternativa a \usepackage{placeins} que permite usar H en lugar de h!.
 \usepackage{float}
 
-%Permite usar m煤ltiples filas en las columnas que se elija
+%Permite usar m鷏tiples filas en las columnas que se elija
 \usepackage{multirow}
 
 %Corta los enlaces demasiado largos.
 \usepackage{xurl}
 
-%Sin sangr铆a
+%Sin sangr韆
 \setlength\parindent{0pt}
 
 %Habilita hyperlink en citas y enlaces en las referencias. sorting=none
-%Hace que las referencias se ordenen de acuerdo a su aparici贸n
+%Hace que las referencias se ordenen de acuerdo a su aparici髇
 \usepackage[hyperref=true,style=numeric,backend=biber,sorting=none]{biblatex}
 %Colores customizados
 \definecolor{keyword}{RGB}{206,54,12}
@@ -55,7 +57,7 @@
 \definecolor{background}{rgb}{255,253,247}
 \definecolor{comment}{RGB}{63,110,135}
 
-%Define el estilo de la presentaci贸n de c贸digo
+%Define el estilo de la presentaci髇 de c骴igo
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{background},
     commentstyle=\color{comment},
@@ -73,31 +75,37 @@
     showstringspaces=false,
     showtabs=false,
     tabsize=2,
-    %Permite que el c贸digo sea copiable omitiendo los espacios.
+    %Permite que el c骴igo sea copiable omitiendo los espacios.
     columns=fullflexible
 }
 \lstset{style=mystyle}
 
-%Necesarios para escribir en español, además utf8 permite usar á, ñ y ü en lugar de su expresión con \'a y \~n. Además evita usar \textdegree para el símbolo de grados
+%Necesarios para escribir en espa耋l, adem醩 utf8 permite usar �, acentos, y adem醩 evita usar \textdegree para el s韒bolo de grados
 \usepackage[latin1, utf8]{inputenc}
 \usepackage[spanish]{babel}
 
-%Colecci贸n de s铆颅mbolos
+%Warning
+\usepackage{csquotes}
+
+%Colecci髇 de s韒bolos
 \usepackage{amssymb}
 
 %amssymb ya lo carga
 %\usepackage{amsfonts}
 
-%Permite la escritura de ecuaciones matem谩ticas
+%Permite la escritura de ecuaciones matem醫icas
 \usepackage{amsmath}
 
 
-%Permite incluir im谩genes en los documentos
+%Permite incluir im醙enes en los documentos
 \usepackage{graphicx}
 
-%Modifica los colores de los diferentes enlaces (铆颅ndice, citas, urls)
+%Modifica los colores de los diferentes enlaces (韓dice, citas, urls)
 \usepackage[colorlinks=true, linkcolor=black]{hyperref}
 \hypersetup{colorlinks, citecolor=[rgb]{0,0.6,0}, urlcolor=[rgb]{0.07,0.24,0.35}}
 
-%Permite el uso de n煤meros de p谩ginas, encabezados y pies de p谩gina
+%Permite el uso de n鷐eros de p醙inas, encabezados y pies de p醙ina
 \usepackage{fancyhdr}
+
+%Warning
+\setlength{\headheight}{52pt}

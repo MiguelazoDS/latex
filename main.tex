@@ -34,7 +34,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{Algo}
-\rhead{Algo {\includegraphics[width=15mm]{fcefyn.jpg}}}
+\rhead{Algo}
 \rfoot{P\'agina \thepage}
 \begin{document}
   \include{Sections/caratula}
@@ -42,12 +42,11 @@
   \begin{titlepage}
     \tableofcontents
   \end{titlepage}
-  \include{Sections/seccion1}
-  \include{Sections/seccion2}
+  \include{Sections/section}
   %Imprime las referencias. Se puede poner en cualquier parte del documento. Para no imprimir el encabezado colocar [heading=none]
   %En la sección donde se desea que se impriman las referencias si agregamos "\nocite{*}" (sin comillas) agrega las referencias sin necesidad de citarlas
+  \nocite{*}
   \printbibliography
   %Agrega las referencias a la tabla de contenidos
   \addcontentsline{toc}{section}{Referencias}
-  %Agregar direcciones url
 \end{document}
