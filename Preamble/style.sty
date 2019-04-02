@@ -1,63 +1,62 @@
+%It allows to use background images.
+\usepackage{eso-pic}
 
-
-%Paquete para poder incluir código
+%It allows to include code.
 \usepackage{listings}
 
-%Permite poner nombres con espacios en \includegraphics
+%It allows to include space-separated names in \includegraphics.
 \usepackage[space]{grffile}
 
-%Permite realizar gráficos
-
+%Graphics. State machine.
 \usepackage{tikz}
 \usetikzlibrary{arrows,automata,positioning}
 
-%Permite letras más pequeñas en descripción.
+%It allows to use smallest text in descriptions.
 \usepackage[font=scriptsize]{caption}
 
-%Permite tachar con \sout{text}
+%Strikeout using \sout{text}.
 \usepackage{ulem}
 
-%Permite tachar en modo matemático con \cancel{expression}
+%It allows to strikeout in math mode using \cancel{exp}.
 \usepackage{cancel}
 
-%Permite usar división oblicua
+%It allows to use / for division.
 \usepackage{nicefrac}
 
-%Permite usar colores
+%It allows to use colors.
 \usepackage{color}
 
 \usepackage{tcolorbox}
 \tcbuselibrary{listingsutf8}
 
-%Permite usar colores en celdas, hhline es para redibujar las celdas por encima de los colores, rotating permite rotar tablas.
+%It allows to use colored cells.
 \usepackage{colortbl}
+%It re-draw cells over colors.
 \usepackage{hhline}
 \usepackage{adjustbox}
 
-%Permite usar el comando \FloatBarrier para que las imagenes queden debajo de la secciÃ³n correspondiente
-%\usepackage{placeins}
-%Alternativa a \usepackage{placeins} que permite usar H en lugar de h!.
+%\usepackage{placeins} alternative that allows to use H instead of h!.
 \usepackage{float}
 
-%Permite usar múltiples filas en las columnas que se elija
+%Multiple rows.
 \usepackage{multirow}
 
-%Corta los enlaces demasiado largos.
+%It splits long links.
 \usepackage{xurl}
 
-%Sin sangría
+%No indent.
 \setlength\parindent{0pt}
 
-%Habilita hyperlink en citas y enlaces en las referencias. sorting=none
-%Hace que las referencias se ordenen de acuerdo a su aparición
+%It enables cites hyperlink and links inside references.
+%It sorts references in order of appearance.
 \usepackage[hyperref=true,style=numeric,backend=biber,sorting=none]{biblatex}
-%Colores customizados
+%Custom colors.
 \definecolor{keyword}{RGB}{206,54,12}
 \definecolor{string}{RGB}{65,140,64}
 \definecolor{background}{rgb}{255,253,247}
 \definecolor{comment}{RGB}{63,110,135}
 
-%Define el estilo de la presentación de código
+%Code style.
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{background},
     commentstyle=\color{comment},
@@ -75,36 +74,32 @@
     showstringspaces=false,
     showtabs=false,
     tabsize=2,
-    %Permite que el código sea copiable omitiendo los espacios.
+    %It makes the code copyable.
     columns=fullflexible
 }
 \lstset{style=mystyle}
 
-%Necesarios para escribir en españól, además utf8 permite usar ñ, acentos, y además evita usar \textdegree para el símbolo de grados
+%It allows to write in spanish. utf8 option avoid the use of \'a, etc.
 \usepackage[latin1, utf8]{inputenc}
 \usepackage[spanish]{babel}
 
 %Warning
 \usepackage{csquotes}
 
-%Colección de símbolos
+%Symbol set.
 \usepackage{amssymb}
 
-%amssymb ya lo carga
-%\usepackage{amsfonts}
-
-%Permite la escritura de ecuaciones matemáticas
+%It allows to include mathematical equations.
 \usepackage{amsmath}
 
-
-%Permite incluir imágenes en los documentos
+%It allows to include images.
 \usepackage{graphicx}
 
-%Modifica los colores de los diferentes enlaces (índice, citas, urls)
+%Modify index, urls, cites colors.
 \usepackage[colorlinks=true, linkcolor=black]{hyperref}
 \hypersetup{colorlinks, citecolor=[rgb]{0,0.6,0}, urlcolor=[rgb]{0.07,0.24,0.35}}
 
-%Permite el uso de números de páginas, encabezados y pies de página
+%It allows to use page number, heading and footpage.
 \usepackage{fancyhdr}
 
 %Warning
