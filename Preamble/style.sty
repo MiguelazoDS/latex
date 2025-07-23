@@ -2,7 +2,7 @@
 \usepackage{eso-pic}
 
 %It allows to include code.
-\usepackage{listings}
+\usepackage{listingsutf8}
 
 %It allows to include space-separated names in \includegraphics.
 \usepackage[space]{grffile}
@@ -60,6 +60,12 @@
 \definecolor{background}{rgb}{255,253,247}
 \definecolor{comment}{RGB}{63,110,135}
 
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage{upquote}
+\usepackage{listings}
+\usepackage{xcolor}
 %Code style.
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{background},
@@ -67,19 +73,20 @@
     keywordstyle=\color{keyword},
     numberstyle=\tiny,
     stringstyle=\color{string},
-    basicstyle=\footnotesize,
+    basicstyle=\ttfamily\footnotesize,
     breakatwhitespace=false,
     breaklines=true,
     captionpos=b,
     keepspaces=true,
     numbers=left,
-    numbersep=-10pt,
+    xleftmargin=1.5em,
     showspaces=false,
     showstringspaces=false,
     showtabs=false,
     tabsize=8,
     %It makes the code copyable.
-    columns=fullflexible
+    columns=fullflexible,
+    upquote=true
 }
 \lstset{style=mystyle}
 
