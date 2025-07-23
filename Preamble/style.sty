@@ -47,6 +47,10 @@
 %No indent.
 \setlength\parindent{0pt}
 
+%It allows to write in spanish. utf8 option avoid the use of \'a, etc.
+\usepackage[latin1, utf8]{inputenc}
+\usepackage[spanish]{babel}
+
 %It enables cites hyperlink and links inside references.
 %It sorts references in order of appearance.
 \usepackage[hyperref=true,style=numeric,backend=biber,sorting=none]{biblatex}
@@ -78,10 +82,6 @@
     columns=fullflexible
 }
 \lstset{style=mystyle}
-
-%It allows to write in spanish. utf8 option avoid the use of \'a, etc.
-\usepackage[latin1, utf8]{inputenc}
-\usepackage[spanish]{babel}
 
 %Warning
 \usepackage{csquotes}
