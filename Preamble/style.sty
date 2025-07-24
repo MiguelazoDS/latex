@@ -71,14 +71,12 @@
     backgroundcolor=\color{background},
     commentstyle=\color{comment},
     keywordstyle=\color{keyword},
-    numberstyle=\tiny,
-    stringstyle=\color{string},
+    stringstyle=\color{string}\ttfamily,
     basicstyle=\ttfamily\footnotesize,
     breakatwhitespace=false,
     breaklines=true,
     captionpos=b,
     keepspaces=true,
-    numbers=left,
     xleftmargin=1.5em,
     showspaces=false,
     showstringspaces=false,
@@ -86,7 +84,8 @@
     tabsize=8,
     %It makes the code copyable.
     columns=fullflexible,
-    upquote=true
+    upquote=true,
+    frame=single
 }
 \lstset{style=mystyle}
 
@@ -105,6 +104,22 @@
 %Modify index, urls, cites colors.
 \usepackage[colorlinks=true, linkcolor=black]{hyperref}
 \hypersetup{colorlinks, citecolor=[rgb]{0,0.6,0}, urlcolor=[rgb]{0.07,0.24,0.35}}
+
+% Define a new counter for your references
+\newcounter{myref}
+\renewcommand{\themyref}{\textcolor{red}{[\arabic{myref}]}}
+
+% Define command to place reference anchor
+\newcommand{\mylabel}[1]{%
+  \refstepcounter{myref}%
+  \label{#1}%
+  \themyref
+}
+
+% Define command to refer to the label
+\newcommand{\myref}[1]{%
+  \hyperref[#1]{\textcolor{red}{\ref{#1}}}%
+}
 
 %It allows to use page number, heading and footpage.
 \usepackage{fancyhdr}
